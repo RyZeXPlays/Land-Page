@@ -285,6 +285,22 @@ input[type="submit"]:hover {
     animation: moverArriba 1s ease-in;
 }
 
+.ico-contact {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+.ico-contact span {
+    animation: moverIzquierda 1s ease-in;
+    color: white;
+}
+
+.ico-contact span:hover{
+    color: black    ;
+}
+
 
 @keyframes moverDerecha {
     0%{
